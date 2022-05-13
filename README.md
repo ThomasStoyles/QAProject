@@ -65,6 +65,14 @@ Once all these requirements have been met the project will be complete.
 
 
 
+#Versions 
+1.0.0 - Updated 12/05/2022
+1.0.1 - Updated
+
+#licensing 
 
 
+#Contributors
+Thomas Stoyles
 
+#Acknowledgements 
