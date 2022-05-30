@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<body>
+    <h1> See all our games and their developers </h1>
+    <p>
+        {% for game in games %}
+        <h2>{{game.name}}, {{game.dev.dev_name}}</h2>
+        <a href="/update/{{game.id}}">Update</a>&nbsp;<a href="/delete/{{game.id}}">Delete</a>
+        {% endfor %} 
+        <br>  
+    </p>
+
+</body>
+
+{% endblock content %}
