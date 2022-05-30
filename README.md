@@ -1,6 +1,3 @@
-# QAProject
-1st Project from QA
-
 # Introduction 
 This project set out by QA will involve the following skills...
 
