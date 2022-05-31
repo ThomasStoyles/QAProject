@@ -15,7 +15,7 @@ This is all with the over all objective of creating a CRUD application with util
 methodologies and technologies that encapsulate all core modules
 covered during training. This will be able to store infomation on a database using a VM provided by google and this database will have 2 entries which will be linked through a one to many relationship
 
-## CRUD 
+### CRUD 
 
 CRUD is an abrivation for... 
 
@@ -61,7 +61,16 @@ Once all these requirements have been met the project will be complete.
 
 # Planning 
 
-Risk assessment
+### Designing the application 
+The first part of the planning was to come up with an idea for the project I went with a games database which will have a list of games that you see along with there developers and price. The tables within the application will be the games table and the developers table which will have a one to many relationship. This has been shown on the entity relationship diagram below 
+![alt text]()
+
+### Project Tracking
+For the project we had to create a Kanban board, for this I used trello. I used this board to track my progress throughout the application and was able to track what still needs to happen and what has been completed. Within each heading on my trello board was a To-Do list with items that I had to complete before I would have completed the project. Below are images of the trello board to help you see this process.
+![alt text]()
+
+
+### Risk assessment
 
 Before I could start creating the application I had to create a risk assessment to make sure that any risks that i could come across are identified. This allows me to prepare for the risks, that could happen, and implement ways to avoid/minimalise these risks. Please see the assessment below.
 
@@ -69,6 +78,7 @@ Before I could start creating the application I had to create a risk assessment 
 
 
 # Designs 
+
 When it comes to the CRUD application, I knew that I had to design the appliaction before creating it so I had some plan to follow. Below is a prototype of the application I created before I started the project. As you can see i had included all functionaltiy that a CRUD application needed, with the addition of the navigation bar.
 The first image is the addition screen which would allow the user to add into the database a new game field. 
 ![alt text](https://github.com/ThomasStoyles/QAProject/blob/main/Photos%2C%20Assessments%20and%20Diagrams/Addition%20Page.jpg)
