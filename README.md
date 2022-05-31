@@ -61,7 +61,7 @@ Once all these requirements have been met the project will be complete.
 
 # Planning 
 
-* Risk assessment
+Risk assessment
 
 Before I could start creating the application I had to create a risk assessment to make sure that any risks that i could come across are identified. This allows me to prepare for the risks, that could happen, and implement ways to avoid/minimalise these risks. Please see the assessment below.
 
