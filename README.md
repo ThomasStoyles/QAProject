@@ -19,10 +19,10 @@ covered during training.
 
 CRUD is an abrivation for... 
 
-* Create - To complete this I will have to be able to create new fields in the database and save them, through user input from a front end application.
-* Read - 
-* Update -
-* Delete - 
+* Create - To complete this I will have to be able to create new fields in the database and save them, through user input from a front end application. This will be completed in python as the application will be created there, as well as, using the flask package to help with the front end application.
+* Read - This will be the ability to read the data from the database and see all the data from the front end application. 
+* Update - This will be the ability to update any data that is within the database.
+* Delete - Lastly this will be the ability to delete any of the data within the database.
 
 All of which will be displayed within the program connected to this project.
 
