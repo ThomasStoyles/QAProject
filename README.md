@@ -64,15 +64,16 @@ Once all these requirements have been met the project will be complete.
 Risk assessment
 Before I could start creating the application I had to create a risk assessment to make sure that any risks that i could come across are identified. This allows me to prepare for the risks, that could happen, and implement ways to avoid/minimalise these risks. Please see the assessment below.
 
+![alt text](https://github.com/ThomasStoyles/QAProject/blob/main/Photos%2C%20Assessments%20and%20Diagrams/Risk%20Assessment.jpg)
 
 
 # Designs 
 When it comes to the CRUD application, I knew that I had to design the appliaction before creating it so I had some plan to follow. Below is a prototype of the application I created before I started the project. As you can see i had included all functionaltiy that a CRUD application needed, with the addition of the navigation bar.
 The first image is the addition screen which would allow the user to add into the database a new game field. 
-![image](https://user-images.githubusercontent.com/86359442/171148084-1aa45f49-3f14-4d05-ae03-0537d944a9cf.png)
+![alt text](https://github.com/ThomasStoyles/QAProject/blob/main/Photos%2C%20Assessments%20and%20Diagrams/Addition%20Page.jpg)
 
 The next image is the read me page which displays all the games within the database alongside there developer this will be where the database relationship happens, with a one to many relationship between the developer and the game. 
-![image](https://user-images.githubusercontent.com/86359442/171146445-9cae2875-464b-4804-97d9-ea1ee22aa90e.png)
+![alt text](https://github.com/ThomasStoyles/QAProject/blob/main/Photos%2C%20Assessments%20and%20Diagrams/Read%20page.jpg)
 
 
 # Testing
