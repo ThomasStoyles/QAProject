@@ -89,6 +89,7 @@ The next image is the read me page which displays all the games within the datab
 
 # Testing
 
+# Challenges
 
 
 # Versions 
