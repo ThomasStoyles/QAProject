@@ -1,4 +1,5 @@
 from unittest import TestCase
+from urllib import response
 from flask import url_for
 from flask_sqlalchemy import SQLAlchemy
 from application import app, db
@@ -26,7 +27,21 @@ class TestBase(TestCase):
         dev1 = Games(name='Bethesda')
         db.session.add(dev1)
         db.session.commit()
-    def stop(self):
+        
+    def tearDown(self):
         db.session.remove()
         db.drop_all()
 
+
+class Testview(TestBase):
+    def test_read(self):
+        response = self.client.get(url_for('read'))
+        self.assertIn(b'Fallout', response.data)
+        self.assertIn(b'Bethesda', response.data)
+
+class TestDelete(TestBase):
+    def test_delete(self):
+        #Test delete functionality
+        response = self.client.post(url_for('delete', name="Fallout", dev="Bethesda"
+        self.assertNotIn('Fallout', str(response.data))
+        self.assertNotIn('Bethesda', str(response.data))
