@@ -13,7 +13,7 @@ This project set out by QA will involve the following skills...
 
 This is all with the over all objective of creating a CRUD application with utilisation of supporting tools,
 methodologies and technologies that encapsulate all core modules
-covered during training.
+covered during training. This will be able to store infomation on a database using a VM provided by google and this database will have 2 entries which will be linked through a one to many relationship
 
 ## CRUD 
 
