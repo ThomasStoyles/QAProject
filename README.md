@@ -103,3 +103,4 @@ The next image is the read me page which displays all the games within the datab
 Thomas Stoyles
 
 # Acknowledgements 
+I would like to thank Leon, Adam and Earl for all there support when delivering this project.
