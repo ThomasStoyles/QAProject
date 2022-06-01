@@ -1,4 +1,4 @@
-'''
+
 attrs==19.3.0
 Automat==0.8.0
 blinker==1.4
@@ -74,5 +74,3 @@ Werkzeug==2.1.2
 WTForms==3.0.1
 zipp==1.0.0
 zope.interface==4.7.1
-
-'''
