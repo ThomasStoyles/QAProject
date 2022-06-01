@@ -4,7 +4,7 @@ from application.models import Games, Developer
 db.drop_all()
 db.create_all()
 
-# test data adding and 
+# test data adding 
 Activision = Developer(dev_name='Activision')
 Microsoft = Developer(dev_name='Microsoft')
 Riot = Developer(dev_name='Riot')
