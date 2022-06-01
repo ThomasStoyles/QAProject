@@ -29,11 +29,3 @@ class GameForm(FlaskForm):
 class DevForm(FlaskForm):
     dev_name = StringField ('Please eneter developer name: ')
     submit = SubmitField('Submit')
-
-
-
-# class CustomerForm(FlaskForm):
-#     f_name = StringField ('Please Enter your name: ')
-#     l_name = StringField ('Please Enter your name: ')
-#     submit = SubmitField ('submit')
-

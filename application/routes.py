@@ -21,7 +21,7 @@ def add_game():
     add = GameForm()
     pop_dev(add)
     if request.method == 'POST':
-        if add.validate_on_submit():
+        if add.validate():
             game = Games(
                 name = add.game_name.data,
                 age = int(add.age_rating.data),
@@ -43,7 +43,7 @@ def add_developer():
                 new_devs = Developer(dev_name=add_developer.dev_name.data)
                 db.session.add(new_devs)
                 db.session.commit()
-                return redirect(url_for('add_developer'))
+                return redirect(url_for('read'))
 
     return render_template('dev.html', add_developer=add_developer)
 
