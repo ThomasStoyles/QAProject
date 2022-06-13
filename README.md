@@ -67,7 +67,7 @@ The first part of the planning was to come up with an idea for the project I wen
 
 ### Project Tracking
 For the project we had to create a Kanban board, for this I used trello. I used this board to track my progress throughout the application and was able to track what still needs to happen and what has been completed. Within each heading on my trello board was a To-Do list with items that I had to complete before I would have completed the project. Below are images of the trello board to help you see this process.
-![alt text]()
+![alt text](https://github.com/ThomasStoyles/QAProject/blob/main/Photos%2C%20Assessments%20and%20Diagrams/Trello.jpg)
 
 
 ### Risk assessment
@@ -88,6 +88,7 @@ The next image is the read me page which displays all the games within the datab
 
 
 # Testing
+![alt text](https://github.com/ThomasStoyles/QAProject/blob/main/Photos%2C%20Assessments%20and%20Diagrams/Tests.jpg)
 
 # Challenges
 
