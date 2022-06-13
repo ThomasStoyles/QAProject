@@ -63,7 +63,7 @@ Once all these requirements have been met the project will be complete.
 
 ### Designing the application 
 The first part of the planning was to come up with an idea for the project I went with a games database which will have a list of games that you see along with there developers and price. The tables within the application will be the games table and the developers table which will have a one to many relationship. This has been shown on the entity relationship diagram below 
-![alt text]()
+![alt text](https://github.com/ThomasStoyles/QAProject/blob/main/Photos%2C%20Assessments%20and%20Diagrams/ERD.jpg)
 
 ### Project Tracking
 For the project we had to create a Kanban board, for this I used trello. I used this board to track my progress throughout the application and was able to track what still needs to happen and what has been completed. Within each heading on my trello board was a To-Do list with items that I had to complete before I would have completed the project. Below are images of the trello board to help you see this process.
