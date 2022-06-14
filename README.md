@@ -94,7 +94,7 @@ The next image is the read me page which displays all the games within the datab
 # Testing
 After the project had been completed I added tests into the program to make sure that everything in the program was tested and working as intended. This was done through pytest. This was done by creating a new file called test_app and adding a testing database to it so we dont test on the live database. Then i created classes that will be used in all tests, these are to be the base of all tests. Once completed i went through and tested all CRUD functions within the project to make sure that they are all working as intended. Please see a image below for the results of the pytesting
 
-![alt text]()
+![alt text](https://github.com/ThomasStoyles/QAProject/blob/main/Photos%2C%20Assessments%20and%20Diagrams/Pytest.jpg)
 
 After the pytesting was done I needed to make sure that the test was done automaticlly. To do this I used Jenkins. On jenkins I created a pipeline and used my github link so that jenkins knew which reposatory to test. Once completed I needed to set up a webhook so that when that Github reposatory is updated jenkins runs test in the background. After I had done this I generated the report below on jenkins. 
 
