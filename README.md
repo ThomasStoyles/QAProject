@@ -100,7 +100,7 @@ After the pytesting was done I needed to make sure that the test was done automa
 
 ![alt text](https://github.com/ThomasStoyles/QAProject/blob/main/Photos%2C%20Assessments%20and%20Diagrams/Tests.jpg)
 
-The report shows only 87% accuracy. This is because some of the code can be tested in routes. Mainly being the loop that I created to count how many developers there are in the program and, what ID they should be. This is where the lose of coverage is.
+The report shows only 87% accuracy. This is because some of the code can be tested in routes. Mainly being the loop that I created to count how many developers there are in the program and, what ID they should be. This is where the lose of coverage comes from.
 
 
 # Challenges
