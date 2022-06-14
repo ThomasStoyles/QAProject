@@ -107,6 +107,9 @@ To run these tests you can by using the pytest command python3 -m pytest whilst 
 
 # Challenges
 
+While creating the project I ran into many challenges. These challenges were hard to overcome however was a good learning experiance for me to test myself on my skills and ability to learn.
+
+One of the first challenges I faced was the updating functionality of the CRUD application.
 
 # Versions 
 1.0.0 - Updated 12/05/2022
