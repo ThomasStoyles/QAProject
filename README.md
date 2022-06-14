@@ -83,14 +83,25 @@ Before I could start creating the application I had to create a risk assessment 
 
 When it comes to the CRUD application, I knew that I had to design the appliaction before creating it so I had some plan to follow. Below is a prototype of the application I created before I started the project. As you can see i had included all functionaltiy that a CRUD application needed, with the addition of the navigation bar.
 The first image is the addition screen which would allow the user to add into the database a new game field. 
+
 ![alt text](https://github.com/ThomasStoyles/QAProject/blob/main/Photos%2C%20Assessments%20and%20Diagrams/Addition%20Page.jpg)
 
 The next image is the read me page which displays all the games within the database alongside there developer this will be where the database relationship happens, with a one to many relationship between the developer and the game. 
+
 ![alt text](https://github.com/ThomasStoyles/QAProject/blob/main/Photos%2C%20Assessments%20and%20Diagrams/Read%20page.jpg)
 
 
 # Testing
+After the project had been completed I added tests into the program to make sure that everything in the program was tested and working as intended. This was done through pytest. This was done by creating a new file called test_app and adding a testing database to it so we dont test on the live database. Then i created classes that will be used in all tests, these are to be the base of all tests. Once completed i went through and tested all CRUD functions within the project to make sure that they are all working as intended. Please see a image below for the results of the pytesting
+
+![alt text]()
+
+After the pytesting was done I needed to make sure that the test was done automaticlly. To do this I used Jenkins. On jenkins I created a pipeline and used my github link so that jenkins knew which reposatory to test. Once completed I needed to set up a webhook so that when that Github reposatory is updated jenkins runs test in the background. After I had done this I generated the report below on jenkins. 
+
 ![alt text](https://github.com/ThomasStoyles/QAProject/blob/main/Photos%2C%20Assessments%20and%20Diagrams/Tests.jpg)
+
+The report shows only 87% accuracy. This is because some of the code can be tested in routes. Mainly being the loop that I created to count how many developers there are in the program and, what ID they should be. This is where the lose of coverage is.
+
 
 # Challenges
 
