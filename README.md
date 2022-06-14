@@ -13,7 +13,7 @@
 
 [Testing](#Testing)
 
-[CICD Pipeline](#CICD-Pipeline)
+[CI-DI Pipeline](#CI-DI-Pipeline)
 
 [Known app issues](#Known-app-issues)
 
