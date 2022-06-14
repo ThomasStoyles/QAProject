@@ -1,3 +1,34 @@
+
+### Table of contents
+
+[Introduction](#Introduction)
+
+[CRUD](#CRUD)
+
+[Scope](#Scope)
+
+[Planning](#Planning)
+
+[Designs](#Designs)
+
+[Testing](#Testing)
+
+[CICD Pipeline](#CICD-Pipeline)
+
+[Known app issues](#Known-app-issues)
+
+[Challenges](#Challenges)
+
+[Future updates](#Future updates)
+
+[Licensing](#Licensing )
+
+[Contributors](#Contributors)
+
+[Acknowledgements](#Acknowledgements)
+
+
+
 # Introduction 
 This project set out by QA will involve the following skills...
 
@@ -15,7 +46,7 @@ This is all with the over all objective of creating a CRUD application with util
 methodologies and technologies that encapsulate all core modules
 covered during training. This will be able to store infomation on a database using a VM provided by google and this database will have 2 entries which will be linked through a one to many relationship
 
-### CRUD 
+# CRUD 
 
 CRUD is an abrivation for... 
 
@@ -104,12 +135,18 @@ The report shows only 87% accuracy. This is because some of the code can be test
 
 To run these tests you can by using the pytest command python3 -m pytest whilst in the application this will run pytest and will show you what the test coverage is across the program. If you wish to gerneate the report you will have to go onto jenkins and create a freestyle project. Then add the github link into where it asks you too and type in the bash commands. Once completed you can test the project and see the report that is generated.
 
+#CI-DI Pipeline
+
+#Known app issues
+
 
 # Challenges
 
 While creating the project I ran into many challenges. These challenges were hard to overcome however was a good learning experiance for me to test myself on my skills and ability to learn.
 
 One of the first challenges I faced was the updating functionality of the CRUD application.
+
+# Future updates
 
 # Versions 
 1.0.0 - Updated 12/05/2022
