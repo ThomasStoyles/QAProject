@@ -138,13 +138,17 @@ To run these tests you can by using the pytest command python3 -m pytest whilst 
 # CI-DI Pipeline
 
 # Known app issues
-
+No known issues
 
 # Challenges
 
 While creating the project I ran into many challenges. These challenges were hard to overcome however was a good learning experiance for me to test myself on my skills and ability to learn.
 
-One of the first challenges I faced was the updating functionality of the CRUD application.
+One of the first challenges I faced was the updating functionality of the CRUD application. Part of the sepcification of the project is to have a update function which will allow users to update the database so that any incorrect infomation can be chnaged without having to reinput it. The issue I had when creating this is that the when you saved the changes it did not update the database. This caused multiple versions of the same game to be saved just with diffrent values and names. To fix this I simply changed the route of the update route so that it used the ID of the game and then updated the ID rather than creating a new field to replace the old one. 
+
+Another challenge was jenkins. When I started to use jenkins I had never used it before so this was a new concept to me therefore I had many challeneges that i had to overcome. One of these challenges was getting the webhook set up in jenkins. A webhook allows jenkins to run tests that you have definined when you push a new update to github. The issue I faced was when pushing to github the tests in jenkins was not running correctly. To fix this I recreated my pipeline in jenkins with the correct bash commands and chnaged the webhook link on github and I was able to get the webhook working. 
+
+The next challenge is the database was not saving the data when the data was inputted. When you entered data into the forms it did not save that data to the database therefore if you tried to add a new game or developer the data was not saved. Luckily this was quite an easy fix once i figured out what was missing from the db.session function. I had simply not added a get data function and missed a commit function this meant that the data was not being pulled by the app.routes and then the data was not commited to the database so it was never saved just added. To fix this I firstly added add.price.data function for all variables. Then i added the db.session.commit function so that it was saved to the database.
 
 # Future updates
 
