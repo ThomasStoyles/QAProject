@@ -152,6 +152,10 @@ Another challenge was jenkins. When I started to use jenkins I had never used it
 The next challenge is the database was not saving the data when the data was inputted. When you entered data into the forms it did not save that data to the database therefore if you tried to add a new game or developer the data was not saved. Luckily this was quite an easy fix once i figured out what was missing from the db.session function. I had simply not added a get data function and missed a commit function this meant that the data was not being pulled by the app.routes and then the data was not commited to the database so it was never saved just added. To fix this I firstly added add.price.data function for all variables. Then i added the db.session.commit function so that it was saved to the database.
 
 # Future updates
+For the future of this project there are other implementations that can be completed...
+ - Create a nicer GUI
+ - Add validation functions so you can have the same developer more than once 
+ - Create a database for the stores in which you can buy the games from
 
 # Versions 
 1.0.0 - Updated 12/05/2022
