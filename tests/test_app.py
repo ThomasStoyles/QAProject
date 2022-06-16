@@ -79,8 +79,7 @@ class Testupdategame(TestBase):
     def test_update_game(self):
         #Test game addition 
         response = self.client.post(url_for('update', id=1),
-        data =dict(game_name="hbvka", age_rating=3, price=8, developer=1),follow_redirects=True
-        )
+        data =dict(game_name="hbvka", age_rating=3, price=8, developer=1),follow_redirects=True)
         self.assertIn(b'hbvka', response.data)
         self.assertIn(b'3', response.data )
         self.assertIn(b'1', response.data )
