@@ -159,6 +159,7 @@ The next challenge is the database was not saving the data when the data was inp
 For the future of this project there are other implementations that can be completed...
  - Create a nicer GUI
  - Add validation functions so you can have the same developer more than once 
+ - Add more tests to get 100% coverage
  - Create a database for the stores in which you can buy the games from
 
 # Versions 
