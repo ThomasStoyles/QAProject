@@ -136,8 +136,10 @@ The report shows only 87% accuracy. This is because some of the code can be test
 To run these tests you can by using the pytest command python3 -m pytest whilst in the application this will run pytest and will show you what the test coverage is across the program. If you wish to gerneate the report you will have to go onto jenkins and create a freestyle project. Then add the github link into where it asks you too and type in the bash commands. Once completed you can test the project and see the report that is generated.
 
 # CI-DI Pipeline
+Here is a diagram of the CI/DI pipeline that was implemented for this project.
 ![alt text](https://github.com/ThomasStoyles/QAProject/blob/main/Photos%2C%20Assessments%20and%20Diagrams/CIDI.jpg)
 
+Please see a copy of a successful Jenkins build log. Please click [here]()
 # Known app issues
 No known issues
 
