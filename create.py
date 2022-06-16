@@ -15,3 +15,5 @@ db.create_all()
 
 # db.session.add_all([Activision, Microsoft, Riot, Call_Of_Duty, Minecraft, League])
 # db.session.commit()
+
+
