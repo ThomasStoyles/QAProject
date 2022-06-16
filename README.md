@@ -137,7 +137,7 @@ To run these tests you can by using the pytest command python3 -m pytest whilst 
 
 # CI-DI Pipeline
 Here is a diagram of the CI/DI pipeline that was implemented for this project.
-![alt text](https://github.com/ThomasStoyles/QAProject/blob/main/Photos%2C%20Assessments%20and%20Diagrams/CIDI.jpg)
+![alt text](https://github.com/ThomasStoyles/QAProject/blob/main/Photos%2C%20Assessments%20and%20Diagrams/Jenkins%20build%20log)
 
 Please see a copy of a successful Jenkins build log. Please click [here]()
 # Known app issues
