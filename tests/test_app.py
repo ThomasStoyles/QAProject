@@ -70,7 +70,7 @@ class Testadddev(TestBase):
 class TestDelete(TestBase):
     def test_delete(self):
         #Test delete functionality
-        response = self.client.get(url_for('delete', id=1))
+        response = self.client.post(url_for('delete', id=1))
         self.assertNotIn(b'Fallout', response.data)
         self.assertNotIn(b'Bethesda', response.data)
 
