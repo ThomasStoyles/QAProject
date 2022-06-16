@@ -163,11 +163,17 @@ For the future of this project there are other implementations that can be compl
 
 # Versions 
 1.0.0 - Updated 12/05/2022
+
 1.0.1 - Updated
+
 1.0.2 - Updated
+
 1.1.3 - Updated
+
 1.2.3 - Updated
+
 2.0.0 - Updated
+
 
 # Licensing 
 
