@@ -1,0 +1,105 @@
+Started by GitHub push by ThomasStoyles
+Running as SYSTEM
+Building in workspace /home/jenkins/.jenkins/workspace/Tests
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /home/jenkins/.jenkins/workspace/Tests/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/ThomasStoyles/QAProject # timeout=10
+Fetching upstream changes from https://github.com/ThomasStoyles/QAProject
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/ThomasStoyles/QAProject +refs/heads/*:refs/remotes/origin/* # timeout=10
+Seen branch in repository origin/main
+Seen branch in repository origin/master
+Seen 2 remote branches
+ > git show-ref --tags -d # timeout=10
+Checking out Revision 74204bbad274956c4ad3f914a399ca298ffa7520 (origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 74204bbad274956c4ad3f914a399ca298ffa7520 # timeout=10
+Commit message: "TS: Webhook"
+ > git rev-list --no-walk 3a3505137f412d674df6e7b13876a5e467d4370b # timeout=10
+[Tests] $ /bin/bash /tmp/jenkins8785794807863551826.sh
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Hit:1 http://europe-west2.gce.archive.ubuntu.com/ubuntu focal InRelease
+Get:2 http://europe-west2.gce.archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
+Get:3 http://europe-west2.gce.archive.ubuntu.com/ubuntu focal-backports InRelease [108 kB]
+Get:4 http://security.ubuntu.com/ubuntu focal-security InRelease [114 kB]
+Fetched 336 kB in 1s (642 kB/s)
+Reading package lists...
+Building dependency tree...
+Reading state information...
+62 packages can be upgraded. Run 'apt list --upgradable' to see them.
+
+WARNING: apt does not have a stable CLI interface. Use with caution in scripts.
+
+Reading package lists...
+Building dependency tree...
+Reading state information...
+python3 is already the newest version (3.8.2-0ubuntu2).
+python3-venv is already the newest version (3.8.2-0ubuntu2).
+python3-pip is already the newest version (20.0.2-5ubuntu1.6).
+The following packages were automatically installed and are no longer required:
+  libatasmart4 libblockdev-fs2 libblockdev-loop2 libblockdev-part-err2
+  libblockdev-part2 libblockdev-swap2 libblockdev-utils2 libblockdev2
+  libmm-glib0 libnuma1 libparted-fs-resize0 libudisks2-0 usb-modeswitch
+  usb-modeswitch-data
+Use 'sudo apt autoremove' to remove them.
+0 upgraded, 0 newly installed, 0 to remove and 62 not upgraded.
+Requirement already satisfied: Flask==2.1.2 in ./venv/lib/python3.8/site-packages (from -r requirements.txt (line 2)) (2.1.2)
+Requirement already satisfied: Flask-SQLAlchemy==2.5.1 in ./venv/lib/python3.8/site-packages (from -r requirements.txt (line 3)) (2.5.1)
+Requirement already satisfied: Flask-Testing==0.8.1 in ./venv/lib/python3.8/site-packages (from -r requirements.txt (line 4)) (0.8.1)
+Requirement already satisfied: Flask-WTF==1.0.1 in ./venv/lib/python3.8/site-packages (from -r requirements.txt (line 5)) (1.0.1)
+Requirement already satisfied: PyMySQL==1.0.2 in ./venv/lib/python3.8/site-packages (from -r requirements.txt (line 6)) (1.0.2)
+Requirement already satisfied: SQLAlchemy==1.4.36 in ./venv/lib/python3.8/site-packages (from -r requirements.txt (line 7)) (1.4.36)
+Requirement already satisfied: WTForms==3.0.1 in ./venv/lib/python3.8/site-packages (from -r requirements.txt (line 8)) (3.0.1)
+Requirement already satisfied: pytest in ./venv/lib/python3.8/site-packages (from -r requirements.txt (line 9)) (7.1.2)
+Requirement already satisfied: pytest-cov in ./venv/lib/python3.8/site-packages (from -r requirements.txt (line 10)) (3.0.0)
+Requirement already satisfied: requests in ./venv/lib/python3.8/site-packages (from -r requirements.txt (line 11)) (2.27.1)
+Requirement already satisfied: importlib-metadata>=3.6.0; python_version < "3.10" in ./venv/lib/python3.8/site-packages (from Flask==2.1.2->-r requirements.txt (line 2)) (4.11.4)
+Requirement already satisfied: click>=8.0 in ./venv/lib/python3.8/site-packages (from Flask==2.1.2->-r requirements.txt (line 2)) (8.1.3)
+Requirement already satisfied: Werkzeug>=2.0 in ./venv/lib/python3.8/site-packages (from Flask==2.1.2->-r requirements.txt (line 2)) (2.1.2)
+Requirement already satisfied: Jinja2>=3.0 in ./venv/lib/python3.8/site-packages (from Flask==2.1.2->-r requirements.txt (line 2)) (3.1.2)
+Requirement already satisfied: itsdangerous>=2.0 in ./venv/lib/python3.8/site-packages (from Flask==2.1.2->-r requirements.txt (line 2)) (2.1.2)
+Requirement already satisfied: greenlet!=0.4.17; python_version >= "3" and (platform_machine == "aarch64" or (platform_machine == "ppc64le" or (platform_machine == "x86_64" or (platform_machine == "amd64" or (platform_machine == "AMD64" or (platform_machine == "win32" or platform_machine == "WIN32")))))) in ./venv/lib/python3.8/site-packages (from SQLAlchemy==1.4.36->-r requirements.txt (line 7)) (1.1.2)
+Requirement already satisfied: MarkupSafe in ./venv/lib/python3.8/site-packages (from WTForms==3.0.1->-r requirements.txt (line 8)) (2.1.1)
+Requirement already satisfied: tomli>=1.0.0 in ./venv/lib/python3.8/site-packages (from pytest->-r requirements.txt (line 9)) (2.0.1)
+Requirement already satisfied: attrs>=19.2.0 in ./venv/lib/python3.8/site-packages (from pytest->-r requirements.txt (line 9)) (21.4.0)
+Requirement already satisfied: py>=1.8.2 in ./venv/lib/python3.8/site-packages (from pytest->-r requirements.txt (line 9)) (1.11.0)
+Requirement already satisfied: pluggy<2.0,>=0.12 in ./venv/lib/python3.8/site-packages (from pytest->-r requirements.txt (line 9)) (1.0.0)
+Requirement already satisfied: iniconfig in ./venv/lib/python3.8/site-packages (from pytest->-r requirements.txt (line 9)) (1.1.1)
+Requirement already satisfied: packaging in ./venv/lib/python3.8/site-packages (from pytest->-r requirements.txt (line 9)) (21.3)
+Requirement already satisfied: coverage[toml]>=5.2.1 in ./venv/lib/python3.8/site-packages (from pytest-cov->-r requirements.txt (line 10)) (6.4)
+Requirement already satisfied: idna<4,>=2.5; python_version >= "3" in ./venv/lib/python3.8/site-packages (from requests->-r requirements.txt (line 11)) (3.3)
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in ./venv/lib/python3.8/site-packages (from requests->-r requirements.txt (line 11)) (1.26.9)
+Requirement already satisfied: certifi>=2017.4.17 in ./venv/lib/python3.8/site-packages (from requests->-r requirements.txt (line 11)) (2022.5.18.1)
+Requirement already satisfied: charset-normalizer~=2.0.0; python_version >= "3" in ./venv/lib/python3.8/site-packages (from requests->-r requirements.txt (line 11)) (2.0.12)
+Requirement already satisfied: zipp>=0.5 in ./venv/lib/python3.8/site-packages (from importlib-metadata>=3.6.0; python_version < "3.10"->Flask==2.1.2->-r requirements.txt (line 2)) (3.8.0)
+Requirement already satisfied: pyparsing!=3.0.5,>=2.0.2 in ./venv/lib/python3.8/site-packages (from packaging->pytest->-r requirements.txt (line 9)) (3.0.9)
+============================= test session starts ==============================
+platform linux -- Python 3.8.10, pytest-7.1.2, pluggy-1.0.0
+rootdir: /home/jenkins/.jenkins/workspace/Tests
+plugins: cov-3.0.0
+collected 6 items
+
+tests/test_app.py ......                                                 [100%]
+
+=============================== warnings summary ===============================
+venv/lib/python3.8/site-packages/flask_sqlalchemy/__init__.py:872
+  /home/jenkins/.jenkins/workspace/Tests/venv/lib/python3.8/site-packages/flask_sqlalchemy/__init__.py:872: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+    warnings.warn(FSADeprecationWarning(
+
+tests/test_app.py::Testview::test_read
+  /home/jenkins/.jenkins/workspace/Tests/application/routes.py:55: SAWarning: Dialect sqlite+pysqlite does *not* support Decimal objects natively, and SQLAlchemy must convert from floating point - rounding errors and other issues may occur. Please consider storing Decimal numbers as strings or integers on this platform for lossless storage.
+    game = Games.query.all()
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+
+---------- coverage: platform linux, python 3.8.10-final-0 -----------
+Coverage HTML written to dir htmlcov
+
+======================== 6 passed, 2 warnings in 0.74s =========================
+Archiving artifacts
+Finished: SUCCESS
