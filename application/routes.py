@@ -80,7 +80,6 @@ def update(id):
 @app.route('/delete/<int:id>', methods=['GET'])
 def delete(id):
     game = Games.query.get(id)
-
     db.session.delete(game)
     db.session.commit()
     return render_template ('read.html', games=Games.query.all()) 
