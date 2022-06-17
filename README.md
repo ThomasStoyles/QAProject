@@ -28,7 +28,6 @@
 [Acknowledgements](#Acknowledgements)
 
 
-
 # Introduction 
 This project set out by QA will involve the following skills...
 
@@ -100,8 +99,17 @@ The first part of the planning was to come up with an idea for the project I wen
 For the project we had to create a Kanban board, for this I used trello. I used this board to track my progress throughout the application and was able to track what still needs to happen and what has been completed. Within each heading on my trello board was a To-Do list with items that I had to complete before I would have completed the project. Below are images of the trello board to help you see this process.
 ![alt text](https://github.com/ThomasStoyles/QAProject/blob/main/Photos%2C%20Assessments%20and%20Diagrams/Trello.jpg)
 
-As you can see in the trello board this is about half way through createing my project. The trello board has user stories on it which I created depending on how hard I felt certain tasks will be. I also have had some issues with my project which I will go into more detail about further in this report.
+As you can see in the trello board this is about half way through createing my project. The trello board has number on it these numbers I created depending on how hard I felt certain tasks will be. I also have had some issues with my project which I will go into more detail about further in this report.
 
+### User Stories 
+
+My client had a certain set of requirements which have been listed below...
+
+- Firstly the client wanted a application that allowed them to add games that they own to a database through a GUI. 
+- The application must allow the user to add games to the database so they can see what games they currently own 
+- It must also allow the user to update the game entries incase they make a mistake when adding the game to the database
+- The user must be able to see all the games in the database so that they can see what games they own and which ones they dont 
+- Lastly the user must be able to delete records so that they can remove any games that they dont own anymore
 
 ### Risk assessment
 
@@ -142,8 +150,10 @@ Here is a diagram of the CI/DI pipeline that was implemented for this project.
 ![alt text](https://github.com/ThomasStoyles/QAProject/blob/main/Photos%2C%20Assessments%20and%20Diagrams/CIDI.jpg)
 
 Please see a copy of a successful Jenkins build log. Please click [here](https://github.com/ThomasStoyles/QAProject/blob/main/Photos%2C%20Assessments%20and%20Diagrams/Jenkins%20build%20log)
+
 # Known app issues
-No known issues
+
+Some known issues with the application is the lack validation within the application. This means that you can add multiple of the same records to the database as well as, the same game name and developer. With the lack of validation you can also add profanity to the database which you shouldn't be able to do.
 
 # Challenges
 
@@ -158,9 +168,9 @@ The next challenge is the database was not saving the data when the data was inp
 # Future updates
 For the future of this project there are other implementations that can be completed...
  - Create a nicer GUI
- - Add validation functions so you can have the same developer more than once 
+ - Add validation functions 
  - Add more tests to get 100% coverage
- - Create a database for the stores in which you can buy the games from
+ - Create more tables in the database
 
 # Versions 
 1.0.0 - Updated 12/05/2022
@@ -171,9 +181,7 @@ For the future of this project there are other implementations that can be compl
 
 2.0.0 - Updated 12/06/2022
 
-
 # Licensing 
-
 
 # Contributors
 Thomas Stoyles
