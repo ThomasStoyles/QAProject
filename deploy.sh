@@ -7,4 +7,4 @@ pip3 install -r requirements.txt
 echo "killing existing processes"
 sudo kill $(cat gunicornpidfile)
 python3 create.py
-SECRET_KEY=12345 DATABASE_URI='mysql+pymysql://root:password@35.246.93.130:3306/games' python3 -m gunicorn -b  0.0.0.0:5000 -w 4 application:app  -p gunicornpidfile
+SECRET_KEY=12345 DATABASE_URI='mysql+pymysql://root:password@35.246.93.130:3306/games' python3 -m gunicorn -D -b  0.0.0.0:5000 -w 4 application:app  -p gunicornpidfile
