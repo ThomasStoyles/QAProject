@@ -9,3 +9,4 @@ WTForms==3.0.1
 pytest
 pytest-cov
 requests
+gunicorn
