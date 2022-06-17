@@ -167,6 +167,8 @@ Another challenge was jenkins. When I started to use jenkins I had never used it
 
 The next challenge is the database was not saving the data when the data was inputted. When you entered data into the forms it did not save that data to the database therefore if you tried to add a new game or developer the data was not saved. Luckily this was quite an easy fix once i figured out what was missing from the db.session function. I had simply not added a get data function and missed a commit function this meant that the data was not being pulled by the app.routes and then the data was not commited to the database so it was never saved just added. To fix this I firstly added add.price.data function for all variables. Then i added the db.session.commit function so that it was saved to the database.
 
+The Last challenge I encountered was with the deployment when trying to depoy with gunicorn. The issue I had was that the jenkins file would not end the deployment meaning that I would manually have to stop the deplyment to allow a new deployment to begin. To fix this I went into the app-server VM (Deployment VM) and, had to change some of the enviroment variables so that they had the correct syntax and layout. This then fixed the issue and the deployment was completed without manual intervention. 
+
 # Future updates
 For the future of this project there are other implementations that can be completed...
  - Create a nicer GUI
@@ -177,6 +179,7 @@ For the future of this project there are other implementations that can be compl
 
 # Conclusion
 
+In conclusion I feel like the project met all the requirements that was set out in the beginning of the read me. I also felt that it met all the user stories that I have wrote above. Overall I think the project was a success however there are areas to improve such as the validation not being included. I also feel like I can improve in areas that I am not as stong in such as deployment and jenkins.
 
 # Versions 
 1.0.0 - Updated 12/05/2022
