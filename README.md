@@ -21,6 +21,8 @@
 
 [Future updates](#Future_updates)
 
+[Conclusion](#Conclusion)
+
 [Licensing](#Licensing )
 
 [Contributors](#Contributors)
@@ -171,6 +173,10 @@ For the future of this project there are other implementations that can be compl
  - Add validation functions 
  - Add more tests to get 100% coverage
  - Create more tables in the database
+
+
+# Conclusion
+
 
 # Versions 
 1.0.0 - Updated 12/05/2022
