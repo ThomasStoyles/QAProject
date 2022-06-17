@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+<body>
+    <h1>Add a new Developer to the database:</h1>
+    <p>
+        <div class='add_developer'>
+            <form method='POST' action=''>
+                <!-- hidden_tag() is required for form validation -->
+                {{ add_developer.hidden_tag() }}
+                <!-- Each field displays its label followed by the input field itself -->
+                {{ add_developer.dev_name.label }} {{ add_developer.dev_name }}
+                <br>
+                <!-- submit button -->
+                {{ add_developer.submit }}
+                <br>
+            </form>
+        </div>
+    </p>
+</body>
+
+
+{% endblock content %}

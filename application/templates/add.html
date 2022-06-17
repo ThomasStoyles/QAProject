@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+
+<body>
+    <h1>kalsbdcjbaskljcbalks</h1>
+    <p>
+        <div class='add'>
+            <form method='POST' action=''>
+                <!-- hidden_tag() is required for form validation -->
+                {{ add.hidden_tag() }}
+                <!-- Each field displays its label followed by the input field itself -->
+                {{ add.game_name.label }} {{ add.game_name }}
+                <br>
+                {{ add.age_rating.label }} {{ add.age_rating }}
+                <br>
+                {{ add.price.label }} {{ add.price }}
+                <br>
+                {{ add.developer.label }} {{ add.developer }}
+                <br>
+                <!-- submit button -->
+                {{ add.submit }}
+                <br>
+            </form>
+        </div>
+    </p>
+</body>
+
+
+{% endblock content %}
